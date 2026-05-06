@@ -1,484 +1,859 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fitness Online - Personal Program</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-  <!-- ═══════════════════════════════════════════ NAVBAR ═══ -->
-  <nav class="navbar navbar-expand-lg navbar-dark nav-overlay">
-    <div class="container-fluid px-4 px-lg-5">
-      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <span class="material-symbols-outlined" style="font-size:1.25rem;">fitness_center</span>
-        <span class="fw-bold" style="letter-spacing:-0.3px;">fitness online</span>
-      </a>
-      <button class="navbar-toggler border-0 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav gap-lg-1">
-          <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
-          <li class="nav-item"><a class="nav-link" href="#how-to-start">How To Start</a></li>
-          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
-          <li class="nav-item"><a class="nav-link" href="#feedback">Feedback</a></li>
-          <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- ═══════════════════════════════════════════ HERO ═══ -->
-  <section class="hero-section">
-    <div class="hero-content">
-      <h1 class="hero-title">Online Workout<br>Personal Program</h1>
-      <p class="hero-subtitle">Start training online with your personal coach and become healthy</p>
-      <a href="#contact" class="btn-teal">Start Training</a>
-    </div>
-    <div class="hero-image-container">
-      <img
-        src="./img/1.svg"
-        class="hero-img"
-        alt="Workout Personal Program"
-      >
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════ ABOUT ═══ -->
-  <section class="section-white" id="about">
-    <div class="container">
-      <h2 class="section-title-dark">About Us</h2>
-      <div class="row g-4">
-        <div class="col-12 col-md-6">
-          <div class="video-thumb">
-            <img
-              src="./img/2.svg"
-              alt="About Us Video 1"
-            >
-            <div class="video-overlay">
-               
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-6">
-          <div class="video-thumb">
-            <img
-              src="./img/2.svg"
-              alt="About Us Video 2"
-            >
-            <div class="video-overlay">
-             
-            </div>
-          </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Online - Personal Program</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark nav-overlay">
+      <div class="container-fluid px-4 px-lg-5">
+        <a
+          class="navbar-brand d-flex align-items-center gap-2"
+          href="#"
+          aria-label="Fitness Online Home"
+        >
+          <span
+            class="material-symbols-outlined"
+            style="font-size: 1.25rem"
+            aria-hidden="true"
+            >fitness_center</span
+          >
+          <span class="fw-bold" style="letter-spacing: -0.3px"
+            >fitness online</span
+          >
+        </a>
+        <button
+          class="navbar-toggler border-0 p-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-lg-1">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#how-to-start">How To Start</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#features">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#feedback">Feedback</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#faq">FAQ</a></li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- ═══════════════════════════════════════════ HOW TO START ═══ -->
-  <section class="section-purple" id="how-to-start">
-    <div class="container">
-      <div class="text-center mb-5">
-        <h2 class="section-title-white">How To Start</h2>
-        <p class="section-subtitle-white mx-auto">It's easy to start training right now without going anywhere, just in your room, having without missing important things and coach advices</p>
-      </div>
-
-      <!-- Desktop: horizontal steps -->
-      <div class="d-none d-md-flex align-items-start justify-content-center gap-0">
-        <div class="step-item">
-          <span class="step-number">1</span>
-          <p class="step-text">Sign up in Fitness Online with your phone number. No spam guaranteed. You can skip using Fitness Online at any moment</p>
-        </div>
-        <div class="step-arrow-wrap d-none d-md-flex">
-          <div class="step-arrow-dotted"></div>
-        </div>
-        <div class="step-item">
-          <span class="step-number">2</span>
-          <p class="step-text">We will immediately add you in our chat bot, where you will be able to pay chosen pricing plan</p>
-        </div>
-        <div class="step-arrow-wrap d-none d-md-flex">
-          <div class="step-arrow-dotted"></div>
-        </div>
-        <div class="step-item">
-          <span class="step-number">3</span>
-          <p class="step-text">In 24 hours after payment your trainer will contact you to get acquainted and to make training program best for you</p>
-        </div>
-      </div>
-
-      <!-- Mobile: vertical steps -->
-      <div class="d-flex d-md-none flex-column gap-4">
-        <div class="d-flex align-items-start gap-3">
-          <span class="step-number-mobile">1</span>
-          <p class="step-text mb-0">Sign up in Fitness Online with your phone number. No spam guaranteed. You can skip using Fitness Online at any moment</p>
-        </div>
-        <div class="d-flex align-items-start gap-3">
-          <span class="step-number-mobile">2</span>
-          <p class="step-text mb-0">We will immediately add you in our chat bot, where you will be able to pay chosen pricing plan</p>
-        </div>
-        <div class="d-flex align-items-start gap-3">
-          <span class="step-number-mobile">3</span>
-          <p class="step-text mb-0">In 24 hours after payment your trainer will contact you to get acquainted and to make training program best for you</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- ═══════════════════════════════════════════ FEATURES ═══ -->
-  <section class="section-white" id="features">
-    <div class="container">
-      <h2 class="section-title-dark">Features</h2>
-
-      <!-- Desktop: 3 columns centered -->
-      <div class="d-none d-md-flex justify-content-center gap-5 mb-5">
-        <div class="feature-card">
-          <div class="feature-icon-wrap">
-            <!-- laptop icon SVG -->
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="56" height="56" rx="16" fill="#F3EEFF"/>
-              <rect x="14" y="18" width="28" height="18" rx="2" stroke="#6f44bf" stroke-width="2" fill="none"/>
-              <rect x="10" y="36" width="36" height="3" rx="1.5" fill="#6f44bf"/>
-            </svg>
-          </div>
-          <h3 class="feature-title">Comfortable Place</h3>
-          <p class="feature-desc">Train where it is convenient for you. You don't need to go to gym anymore</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon-wrap">
-            <!-- trophy icon SVG -->
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="56" height="56" rx="16" fill="#F3EEFF"/>
-              <path d="M20 16h16v12a8 8 0 01-16 0V16z" stroke="#6f44bf" stroke-width="2" fill="none"/>
-              <path d="M20 22h-4a4 4 0 004 4M36 22h4a4 4 0 01-4 4" stroke="#6f44bf" stroke-width="2"/>
-              <path d="M28 36v4M22 40h12" stroke="#6f44bf" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3 class="feature-title">Professional Trainers</h3>
-          <p class="feature-desc">Train where it is convenient for you. You don't need to go to gym anymore</p>
-        </div>
-        <div class="feature-card">
-          <div class="feature-icon-wrap">
-            <!-- list icon SVG -->
-            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <rect width="56" height="56" rx="16" fill="#F3EEFF"/>
-              <path d="M18 20h20M18 28h20M18 36h12" stroke="#6f44bf" stroke-width="2" stroke-linecap="round"/>
-            </svg>
-          </div>
-          <h3 class="feature-title">Individual Approach</h3>
-          <p class="feature-desc">You will have a training program that fits exactly you</p>
-        </div>
-      </div>
-
-      <!-- Mobile: vertical list with icon left -->
-      <div class="d-flex d-md-none flex-column gap-4 mb-5">
-        <div class="d-flex align-items-center gap-4">
-          <div class="feature-icon-wrap flex-shrink-0">
-            <svg width="48" height="48" viewBox="0 0 56 56" fill="none"><rect width="56" height="56" rx="16" fill="#F3EEFF"/><rect x="14" y="18" width="28" height="18" rx="2" stroke="#6f44bf" stroke-width="2" fill="none"/><rect x="10" y="36" width="36" height="3" rx="1.5" fill="#6f44bf"/></svg>
-          </div>
-          <div>
-            <h3 class="feature-title mb-1">Comfortable Place</h3>
-            <p class="feature-desc mb-0">Train where it is convenient for you. You don't need to go to gym anymore</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-center gap-4">
-          <div class="feature-icon-wrap flex-shrink-0">
-            <svg width="48" height="48" viewBox="0 0 56 56" fill="none"><rect width="56" height="56" rx="16" fill="#F3EEFF"/><path d="M20 16h16v12a8 8 0 01-16 0V16z" stroke="#6f44bf" stroke-width="2" fill="none"/><path d="M20 22h-4a4 4 0 004 4M36 22h4a4 4 0 01-4 4" stroke="#6f44bf" stroke-width="2"/><path d="M28 36v4M22 40h12" stroke="#6f44bf" stroke-width="2" stroke-linecap="round"/></svg>
-          </div>
-          <div>
-            <h3 class="feature-title mb-1">Professional Trainers</h3>
-            <p class="feature-desc mb-0">Train where it is convenient for you. You don't need to go to gym anymore</p>
-          </div>
-        </div>
-        <div class="d-flex align-items-center gap-4">
-          <div class="feature-icon-wrap flex-shrink-0">
-            <svg width="48" height="48" viewBox="0 0 56 56" fill="none"><rect width="56" height="56" rx="16" fill="#F3EEFF"/><path d="M18 20h20M18 28h20M18 36h12" stroke="#6f44bf" stroke-width="2" stroke-linecap="round"/></svg>
-          </div>
-          <div>
-            <h3 class="feature-title mb-1">Individual Approach</h3>
-            <p class="feature-desc mb-0">You will have a training program that fits exactly you</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="text-center">
+    <section class="hero-section">
+      <div class="hero-content">
+        <h1 class="hero-title">Online Workout<br />Personal Program</h1>
+        <p class="hero-subtitle">
+          Start training online with your personal coach and become healthy
+        </p>
         <a href="#contact" class="btn-teal">Start Training</a>
       </div>
-    </div>
-  </section>
+      <div class="hero-image-container">
+        <img
+          src="./img/1.svg"
+          class="hero-img"
+          alt="Illustration of a person working out online with a personal program"
+        />
+      </div>
+    </section>
 
-  <!-- ═══════════════════════════════════════════ PRICING ═══ -->
-  <section class="section-purple" id="pricing">
-    <div class="container">
-      <h2 class="section-title-white">Pricing</h2>
-      <div class="row g-4 justify-content-center">
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="pricing-card">
-            <h3 class="pricing-plan-name">Start</h3>
-            <ul class="pricing-features">
-              <li><span class="dot"></span>Program for 8 workouts</li>
-              <li><span class="dot"></span>3 calls with the trainer</li>
-              <li><span class="dot"></span>Video instructions</li>
-            </ul>
-            <div class="pricing-price">$5<span class="pricing-period">/month</span></div>
-            <button class="btn-outline-white">Choose</button>
+    <section class="section-white" id="about">
+      <div class="container">
+        <h2 class="section-title-dark">About Us</h2>
+        <div class="row g-4">
+          <div class="col-12 col-md-6">
+            <div class="video-thumb">
+              <img
+                src="./img/2.svg"
+                alt="Video thumbnail showing an online fitness session"
+              />
+              <div class="video-overlay" aria-hidden="true"></div>
+            </div>
           </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="pricing-card">
-            <h3 class="pricing-plan-name">Middle</h3>
-            <ul class="pricing-features">
-              <li><span class="dot"></span>Program for 18 workouts</li>
-              <li><span class="dot"></span>5 calls with the trainer</li>
-              <li><span class="dot"></span>Video instructions</li>
-              <li><span class="dot"></span>Text instructions</li>
-              <li><span class="dot"></span>1 technique analysis</li>
-            </ul>
-            <div class="pricing-price">$14<span class="pricing-period">/month</span></div>
-            <button class="btn-outline-white">Choose</button>
-          </div>
-        </div>
-        <div class="col-12 col-sm-6 col-md-4">
-          <div class="pricing-card">
-            <h3 class="pricing-plan-name">Pro</h3>
-            <ul class="pricing-features">
-              <li><span class="dot"></span>Program for 40 workouts</li>
-              <li><span class="dot"></span>15 calls with the trainer</li>
-              <li><span class="dot"></span>Video instructions</li>
-              <li><span class="dot"></span>Text instructions</li>
-              <li><span class="dot"></span>5 technique analysis</li>
-              <li><span class="dot"></span>Access to chat with others</li>
-            </ul>
-            <div class="pricing-price">$20<span class="pricing-period">/month</span></div>
-            <button class="btn-outline-white">Choose</button>
+          <div class="col-12 col-md-6">
+            <div class="video-thumb">
+              <img
+                src="./img/2.svg"
+                alt="Video thumbnail showing workout instructions"
+              />
+              <div class="video-overlay" aria-hidden="true"></div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════════════════════════ FEEDBACK ═══ -->
-  <section class="section-white" id="feedback">
-    <div class="container">
-      <h2 class="section-title-dark">Feedback About Us</h2>
+    <section class="section-purple" id="how-to-start">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="section-title-white">How To Start</h2>
+          <p class="section-subtitle-white mx-auto">
+            It's easy to start training right now without going anywhere, just
+            in your room, having without missing important things and coach
+            advices
+          </p>
+        </div>
 
-      <!-- Mobile carousel -->
-      <div id="feedbackCarouselMobile" class="carousel slide feedback-carousel d-lg-none" data-bs-interval="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="testimonial-item">
-              <div class="testimonial-author">
-                <img src="./img/3.svg" alt="Sarah Kong" class="testimonial-avatar">
-                <div class="testimonial-name">Sarah Kong</div>
-                <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>sarahkong</div>
-              </div>
-              <p class="testimonial-text">The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional. The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional.</p>
+        <div
+          class="d-none d-md-flex align-items-start justify-content-center gap-0"
+        >
+          <div class="step-item">
+            <span class="step-number" aria-hidden="true">1</span>
+            <p class="step-text">
+              <span class="visually-hidden">Step 1: </span>Sign up in Fitness
+              Online with your phone number. No spam guaranteed. You can skip
+              using Fitness Online at any moment
+            </p>
+          </div>
+          <div class="step-arrow-wrap d-none d-md-flex" aria-hidden="true">
+            <div class="step-arrow-dotted"></div>
+          </div>
+          <div class="step-item">
+            <span class="step-number" aria-hidden="true">2</span>
+            <p class="step-text">
+              <span class="visually-hidden">Step 2: </span>We will immediately
+              add you in our chat bot, where you will be able to pay chosen
+              pricing plan
+            </p>
+          </div>
+          <div class="step-arrow-wrap d-none d-md-flex" aria-hidden="true">
+            <div class="step-arrow-dotted"></div>
+          </div>
+          <div class="step-item">
+            <span class="step-number" aria-hidden="true">3</span>
+            <p class="step-text">
+              <span class="visually-hidden">Step 3: </span>In 24 hours after
+              payment your trainer will contact you to get acquainted and to
+              make training program best for you
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex d-md-none flex-column gap-4">
+          <div class="d-flex align-items-start gap-3">
+            <span class="step-number-mobile" aria-hidden="true">1</span>
+            <p class="step-text mb-0">
+              <span class="visually-hidden">Step 1: </span>Sign up in Fitness
+              Online with your phone number. No spam guaranteed. You can skip
+              using Fitness Online at any moment
+            </p>
+          </div>
+          <div class="d-flex align-items-start gap-3">
+            <span class="step-number-mobile" aria-hidden="true">2</span>
+            <p class="step-text mb-0">
+              <span class="visually-hidden">Step 2: </span>We will immediately
+              add you in our chat bot, where you will be able to pay chosen
+              pricing plan
+            </p>
+          </div>
+          <div class="d-flex align-items-start gap-3">
+            <span class="step-number-mobile" aria-hidden="true">3</span>
+            <p class="step-text mb-0">
+              <span class="visually-hidden">Step 3: </span>In 24 hours after
+              payment your trainer will contact you to get acquainted and to
+              make training program best for you
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-white" id="features">
+      <div class="container">
+        <h2 class="section-title-dark">Features</h2>
+
+        <div class="d-none d-md-flex justify-content-center gap-5 mb-5">
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                focusable="false"
+              >
+                <rect width="56" height="56" rx="16" fill="#F3EEFF" />
+                <rect
+                  x="14"
+                  y="18"
+                  width="28"
+                  height="18"
+                  rx="2"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <rect
+                  x="10"
+                  y="36"
+                  width="36"
+                  height="3"
+                  rx="1.5"
+                  fill="#6f44bf"
+                />
+              </svg>
+            </div>
+            <h3 class="feature-title">Comfortable Place</h3>
+            <p class="feature-desc">
+              Train where it is convenient for you. You don't need to go to gym
+              anymore
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                focusable="false"
+              >
+                <rect width="56" height="56" rx="16" fill="#F3EEFF" />
+                <path
+                  d="M20 16h16v12a8 8 0 01-16 0V16z"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M20 22h-4a4 4 0 004 4M36 22h4a4 4 0 01-4 4"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                />
+                <path
+                  d="M28 36v4M22 40h12"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3 class="feature-title">Professional Trainers</h3>
+            <p class="feature-desc">
+              Train where it is convenient for you. You don't need to go to gym
+              anymore
+            </p>
+          </div>
+          <div class="feature-card">
+            <div class="feature-icon-wrap" aria-hidden="true">
+              <svg
+                width="56"
+                height="56"
+                viewBox="0 0 56 56"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                focusable="false"
+              >
+                <rect width="56" height="56" rx="16" fill="#F3EEFF" />
+                <path
+                  d="M18 20h20M18 28h20M18 36h12"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <h3 class="feature-title">Individual Approach</h3>
+            <p class="feature-desc">
+              You will have a training program that fits exactly you
+            </p>
+          </div>
+        </div>
+
+        <div class="d-flex d-md-none flex-column gap-4 mb-5">
+          <div class="d-flex align-items-center gap-4">
+            <div class="feature-icon-wrap flex-shrink-0" aria-hidden="true">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 56 56"
+                fill="none"
+                focusable="false"
+              >
+                <rect width="56" height="56" rx="16" fill="#F3EEFF" />
+                <rect
+                  x="14"
+                  y="18"
+                  width="28"
+                  height="18"
+                  rx="2"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <rect
+                  x="10"
+                  y="36"
+                  width="36"
+                  height="3"
+                  rx="1.5"
+                  fill="#6f44bf"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="feature-title mb-1">Comfortable Place</h3>
+              <p class="feature-desc mb-0">
+                Train where it is convenient for you. You don't need to go to
+                gym anymore
+              </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="testimonial-item">
-              <div class="testimonial-author">
-                <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuCcGc6fRk8O1t0STtnmV_bL2whOw1BlqH00MW0yVnWTxTxDhLj4_kCiY6_3OV28cMk69u4a7ILoZiPT89zeHYk_bWXVtkmQgMC5s9aNBKGPFYVfafOMCgVhGcUfnm2e9sQRD41Reu8ZK1sGTUl-4hbe6FTZPrgdRgVdg9BUHTfsG-QRikEdVy1EC04eUg7TVZdja3xfPQLZxJFD7DGmrEOJx1iKzf-E_zjIKYZs-whnCo1GzVEhkZhATnaHfQBlGdN2FG32wGMhueU" alt="Russel Williams" class="testimonial-avatar">
-                <div class="testimonial-name">Russel Williams</div>
-                <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>russelwilliams</div>
-              </div>
-              <p class="testimonial-text">The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional. The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional.</p>
+          <div class="d-flex align-items-center gap-4">
+            <div class="feature-icon-wrap flex-shrink-0" aria-hidden="true">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 56 56"
+                fill="none"
+                focusable="false"
+              >
+                <rect width="56" height="56" rx="16" fill="#F3EEFF" />
+                <path
+                  d="M20 16h16v12a8 8 0 01-16 0V16z"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  fill="none"
+                />
+                <path
+                  d="M20 22h-4a4 4 0 004 4M36 22h4a4 4 0 01-4 4"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                />
+                <path
+                  d="M28 36v4M22 40h12"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
+            </div>
+            <div>
+              <h3 class="feature-title mb-1">Professional Trainers</h3>
+              <p class="feature-desc mb-0">
+                Train where it is convenient for you. You don't need to go to
+                gym anymore
+              </p>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="testimonial-item">
-              <div class="testimonial-author">
-                <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200" alt="Elena Rodriguez" class="testimonial-avatar">
-                <div class="testimonial-name">Elena Rodriguez</div>
-                <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>elenarod</div>
-              </div>
-              <p class="testimonial-text">Excellent program! I can see the results after just two weeks. Highly recommended for busy professionals.</p>
+          <div class="d-flex align-items-center gap-4">
+            <div class="feature-icon-wrap flex-shrink-0" aria-hidden="true">
+              <svg
+                width="48"
+                height="48"
+                viewBox="0 0 56 56"
+                fill="none"
+                focusable="false"
+              >
+                <rect width="56" height="56" rx="16" fill="#F3EEFF" />
+                <path
+                  d="M18 20h20M18 28h20M18 36h12"
+                  stroke="#6f44bf"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                />
+              </svg>
             </div>
-          </div>
-          <div class="carousel-item">
-            <div class="testimonial-item">
-              <div class="testimonial-author">
-                <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200" alt="Mark Thompson" class="testimonial-avatar">
-                <div class="testimonial-name">Mark Thompson</div>
-                <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>mthompson</div>
-              </div>
-              <p class="testimonial-text">The trainer is always available for questions. The video instructions are very clear and easy to follow.</p>
+            <div>
+              <h3 class="feature-title mb-1">Individual Approach</h3>
+              <p class="feature-desc mb-0">
+                You will have a training program that fits exactly you
+              </p>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#feedbackCarouselMobile" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#feedbackCarouselMobile" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span>
-        </button>
-      </div>
 
-      <!-- Desktop: 2 columns per slide -->
-      <div id="feedbackCarouselDesktop" class="carousel slide feedback-carousel d-none d-lg-block" data-bs-interval="false">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <div class="row g-5">
-              <div class="col-6">
-                <div class="testimonial-item">
-                  <div class="testimonial-author">
-                    <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXYqW94fhyUZm4zWN65MfQs5jyoS_PpVFONhwHwFNTF5UlAUnGN02CBV90Zyub8V2PeZfJBoyNsvxa7t6zvpuihggQIkNJuCUM-JxDD2zcmKPqhXg3bzuoa4iI0-6HRxe1P0P4YtxoM0-bYhYu764ra2OD8b5EaCwLwk8PxLXUzq8L2DWBam0qPWT0BO0cc1qAMrBwx-EFH94VdSLg-tPEIJrgC0mncnHzAh15jb-Sq4bktsS0leWM9altChSnA87wgQ2f33OxvYA" alt="Sarah Kong" class="testimonial-avatar">
-                    <div class="testimonial-name">Sarah Kong</div>
-                    <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>sarahkong</div>
+        <div class="text-center">
+          <a href="#contact" class="btn-teal">Start Training</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-purple" id="pricing">
+      <div class="container">
+        <h2 class="section-title-white">Pricing</h2>
+        <div class="row g-4 justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="pricing-card">
+              <h3 class="pricing-plan-name">Start</h3>
+              <ul class="pricing-features">
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Program for 8
+                  workouts
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>3 calls with the
+                  trainer
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Video instructions
+                </li>
+              </ul>
+              <div class="pricing-price">
+                $5<span class="pricing-period">/month</span>
+              </div>
+              <button class="btn-outline-white" aria-label="Choose Start plan">
+                Choose
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="pricing-card">
+              <h3 class="pricing-plan-name">Middle</h3>
+              <ul class="pricing-features">
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Program for 18
+                  workouts
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>5 calls with the
+                  trainer
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Video instructions
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Text instructions
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>1 technique
+                  analysis
+                </li>
+              </ul>
+              <div class="pricing-price">
+                $14<span class="pricing-period">/month</span>
+              </div>
+              <button class="btn-outline-white" aria-label="Choose Middle plan">
+                Choose
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="pricing-card">
+              <h3 class="pricing-plan-name">Pro</h3>
+              <ul class="pricing-features">
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Program for 40
+                  workouts
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>15 calls with the
+                  trainer
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Video instructions
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Text instructions
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>5 technique
+                  analysis
+                </li>
+                <li>
+                  <span class="dot" aria-hidden="true"></span>Access to chat
+                  with others
+                </li>
+              </ul>
+              <div class="pricing-price">
+                $20<span class="pricing-period">/month</span>
+              </div>
+              <button class="btn-outline-white" aria-label="Choose Pro plan">
+                Choose
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-white" id="feedback">
+      <div class="container">
+        <h2 class="section-title-dark">Feedback About Us</h2>
+
+        <div
+          id="feedbackCarouselMobile"
+          class="carousel slide feedback-carousel d-lg-none"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="testimonial-item">
+                <div class="testimonial-author">
+                  <img
+                    src="./img/3.svg"
+                    alt="Portrait of Sarah Kong"
+                    class="testimonial-avatar"
+                  />
+                  <div class="testimonial-name">Sarah Kong</div>
+                  <div class="testimonial-handle">
+                    <svg
+                      width="13"
+                      height="13"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      aria-hidden="true"
+                      focusable="false"
+                    >
+                      <rect x="2" y="2" width="20" height="20" rx="5" />
+                      <path
+                        d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                      />
+                      <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+                    >sarahkong
                   </div>
-                  <p class="testimonial-text">The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional. The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional.</p>
                 </div>
+                <p class="testimonial-text">
+                  The most amazing fitness trainings! I've became true sportsman
+                  with it! Trainer is really professional. The most amazing
+                  fitness trainings! I've became true sportsman with it! Trainer
+                  is really professional.
+                </p>
               </div>
-              <div class="col-6">
-                <div class="testimonial-item">
-                  <div class="testimonial-author">
-                    <img src="./img/4.svg" alt="Russel Williams" class="testimonial-avatar">
-                    <div class="testimonial-name">Russel Williams</div>
-                    <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>russelwilliams</div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#feedbackCarouselMobile"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span
+            ><span class="visually-hidden">Previous review</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#feedbackCarouselMobile"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span
+            ><span class="visually-hidden">Next review</span>
+          </button>
+        </div>
+
+        <div
+          id="feedbackCarouselDesktop"
+          class="carousel slide feedback-carousel d-none d-lg-block"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row g-5">
+                <div class="col-6">
+                  <div class="testimonial-item">
+                    <div class="testimonial-author">
+                      <img
+                        src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXYqW94fhyUZm4zWN65MfQs5jyoS_PpVFONhwHwFNTF5UlAUnGN02CBV90Zyub8V2PeZfJBoyNsvxa7t6zvpuihggQIkNJuCUM-JxDD2zcmKPqhXg3bzuoa4iI0-6HRxe1P0P4YtxoM0-bYhYu764ra2OD8b5EaCwLwk8PxLXUzq8L2DWBam0qPWT0BO0cc1qAMrBwx-EFH94VdSLg-tPEIJrgC0mncnHzAh15jb-Sq4bktsS0leWM9altChSnA87wgQ2f33OxvYA"
+                        alt="Portrait of Sarah Kong"
+                        class="testimonial-avatar"
+                      />
+                      <div class="testimonial-name">Sarah Kong</div>
+                      <div class="testimonial-handle">
+                        <svg
+                          width="13"
+                          height="13"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          aria-hidden="true"
+                          focusable="false"
+                        >
+                          <rect x="2" y="2" width="20" height="20" rx="5" />
+                          <path
+                            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                          />
+                          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+                        >sarahkong
+                      </div>
+                    </div>
+                    <p class="testimonial-text">
+                      The most amazing fitness trainings! I've became true
+                      sportsman with it! Trainer is really professional. The
+                      most amazing fitness trainings! I've became true sportsman
+                      with it! Trainer is really professional.
+                    </p>
                   </div>
-                  <p class="testimonial-text">The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional. The most amazing fitness trainings! I've became true sportsman with it! Trainer is really professional.</p>
+                </div>
+                <div class="col-6">
+                  <div class="testimonial-item">
+                    <div class="testimonial-author">
+                      <img
+                        src="./img/4.svg"
+                        alt="Portrait of Russel Williams"
+                        class="testimonial-avatar"
+                      />
+                      <div class="testimonial-name">Russel Williams</div>
+                      <div class="testimonial-handle">
+                        <svg
+                          width="13"
+                          height="13"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          aria-hidden="true"
+                          focusable="false"
+                        >
+                          <rect x="2" y="2" width="20" height="20" rx="5" />
+                          <path
+                            d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"
+                          />
+                          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg
+                        >russelwilliams
+                      </div>
+                    </div>
+                    <p class="testimonial-text">
+                      The most amazing fitness trainings! I've became true
+                      sportsman with it! Trainer is really professional. The
+                      most amazing fitness trainings! I've became true sportsman
+                      with it! Trainer is really professional.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <div class="row g-5">
-              <div class="col-6">
-                <div class="testimonial-item">
-                  <div class="testimonial-author">
-                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200" alt="Elena Rodriguez" class="testimonial-avatar">
-                    <div class="testimonial-name">Elena Rodriguez</div>
-                    <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>elenarod</div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#feedbackCarouselDesktop"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span
+            ><span class="visually-hidden">Previous reviews</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#feedbackCarouselDesktop"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span
+            ><span class="visually-hidden">Next reviews</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-purple" id="faq">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-lg-8">
+            <h2 class="section-title-white">FAQ</h2>
+            <div class="accordion accordion-flush" id="faqAccordion">
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button faq-btn"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq1"
+                    aria-expanded="true"
+                    aria-controls="faq1"
+                  >
+                    <span class="faq-dot" aria-hidden="true"></span>How can I
+                    start?
+                  </button>
+                </h3>
+                <div
+                  id="faq1"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body faq-body">
+                    Sign up in Fitness Online with your phone number. No spam
+                    guaranteed. You can skip using Fitness Online at any moment.
+                    We will immediately add you in our special chat bot, where
+                    you will be able to pay chosen pricing plan. In 24 hours
+                    after payment your trainer will contact you to get
+                    acquainted and to make training program best for you.
                   </div>
-                  <p class="testimonial-text">Excellent program! I can see the results after just two weeks. Highly recommended for busy professionals.</p>
                 </div>
               </div>
-              <div class="col-6">
-                <div class="testimonial-item">
-                  <div class="testimonial-author">
-                    <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200" alt="Mark Thompson" class="testimonial-avatar">
-                    <div class="testimonial-name">Mark Thompson</div>
-                    <div class="testimonial-handle"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>mthompson</div>
+
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button faq-btn collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq2"
+                    aria-expanded="false"
+                    aria-controls="faq2"
+                  >
+                    <span class="faq-dot" aria-hidden="true"></span>How much
+                    does it cost?
+                  </button>
+                </h3>
+                <div
+                  id="faq2"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body faq-body">
+                    We offer three flexible plans starting from just $5/month.
+                    You can choose the one that fits your goals and budget best.
                   </div>
-                  <p class="testimonial-text">The trainer is always available for questions. The video instructions are very clear and easy to follow.</p>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button faq-btn collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq3"
+                    aria-expanded="false"
+                    aria-controls="faq3"
+                  >
+                    <span class="faq-dot" aria-hidden="true"></span>How will I
+                    train?
+                  </button>
+                </h3>
+                <div
+                  id="faq3"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body faq-body">
+                    You will receive a personalized program through our chat
+                    bot. Your trainer will provide video and text instructions,
+                    and you'll have regular calls to track progress.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item faq-item">
+                <h3 class="accordion-header">
+                  <button
+                    class="accordion-button faq-btn collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#faq4"
+                    aria-expanded="false"
+                    aria-controls="faq4"
+                  >
+                    <span class="faq-dot" aria-hidden="true"></span>Who are
+                    trainers?
+                  </button>
+                </h3>
+                <div
+                  id="faq4"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#faqAccordion"
+                >
+                  <div class="accordion-body faq-body">
+                    Our trainers are certified professionals with years of
+                    experience in personal coaching and online training
+                    programs.
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#feedbackCarouselDesktop" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#feedbackCarouselDesktop" data-bs-slide="next">
-          <span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span>
-        </button>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════════════════════════ FAQ ═══ -->
-  <section class="section-purple" id="faq">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-lg-8">
-          <h2 class="section-title-white">FAQ</h2>
-          <div class="accordion accordion-flush" id="faqAccordion">
-
-            <div class="accordion-item faq-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button faq-btn" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                  <span class="faq-dot"></span>How can I start?
-                </button>
-              </h2>
-              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  Sign up in Fitness Online with your phone number. No spam guaranteed. You can skip using Fitness Online at any moment. We will immediately add you in our special chat bot, where you will be able to pay chosen pricing plan. In 24 hours after payment your trainer will contact you to get acquainted and to make training program best for you.
-                </div>
+    <section class="section-white" id="contact">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-8 col-lg-5 text-center">
+            <h2 class="section-title-dark">Start Training</h2>
+            <p class="contact-subtitle">
+              Leave your phone and we will send you a link to our special chat
+              bot. No spam guaranteed.
+            </p>
+            <div class="text-start">
+              <div class="mb-4">
+                <label class="form-field-label" for="userPhone"
+                  >Your Phone</label
+                >
+                <input
+                  type="tel"
+                  class="form-field"
+                  id="userPhone"
+                  placeholder="+1..."
+                />
               </div>
-            </div>
-
-            <div class="accordion-item faq-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                  <span class="faq-dot"></span>How much does it cost?
-                </button>
-              </h2>
-              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  We offer three flexible plans starting from just $5/month. You can choose the one that fits your goals and budget best.
-                </div>
+              <div class="mb-4">
+                <label class="form-field-label" for="userName">Your Name</label>
+                <input
+                  type="text"
+                  class="form-field"
+                  id="userName"
+                  placeholder="Your name"
+                />
               </div>
-            </div>
-
-            <div class="accordion-item faq-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                  <span class="faq-dot"></span>How will I train?
-                </button>
-              </h2>
-              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  You will receive a personalized program through our chat bot. Your trainer will provide video and text instructions, and you'll have regular calls to track progress.
-                </div>
+              <div class="form-check mb-5">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="termsCheck"
+                />
+                <label
+                  class="form-check-label small text-muted"
+                  for="termsCheck"
+                  >I accept Terms of Service</label
+                >
               </div>
+              <button
+                class="btn-teal w-100"
+                style="border-radius: 50px; font-size: 1rem; padding: 0.875rem"
+              >
+                Start Training
+              </button>
             </div>
-
-            <div class="accordion-item faq-item">
-              <h2 class="accordion-header">
-                <button class="accordion-button faq-btn collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                  <span class="faq-dot"></span>Who are trainers?
-                </button>
-              </h2>
-              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body faq-body">
-                  Our trainers are certified professionals with years of experience in personal coaching and online training programs.
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- ═══════════════════════════════════════════ CONTACT ═══ -->
-  <section class="section-white" id="contact">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-12 col-md-8 col-lg-5 text-center">
-          <h2 class="section-title-dark">Start Training</h2>
-          <p class="contact-subtitle">Leave your phone and we will send you a link to our special chat bot. No spam guaranteed.</p>
-          <div class="text-start">
-            <div class="mb-4">
-              <label class="form-field-label">Your Phone</label>
-              <input type="tel" class="form-field" placeholder="+1...">
-            </div>
-            <div class="mb-4">
-              <label class="form-field-label">Your Name</label>
-              <input type="text" class="form-field" placeholder="Your name">
-            </div>
-            <div class="form-check mb-5">
-              <input class="form-check-input" type="checkbox" id="termsCheck">
-              <label class="form-check-label small text-muted" for="termsCheck">I accept Terms of Service</label>
-            </div>
-            <button class="btn-teal w-100" style="border-radius:50px; font-size:1rem; padding:.875rem;">Start Training</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    <footer>
+      <a href="#" class="footer-link">Terms of Service</a>
+      <span class="footer-copy">© Fitness Online, 2022</span>
+    </footer>
 
-  <!-- ═══════════════════════════════════════════ FOOTER ═══ -->
-  <footer>
-    <a href="#" class="footer-link">Terms of Service</a>
-    <span class="footer-copy">© Fitness Online, 2022</span>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html>
